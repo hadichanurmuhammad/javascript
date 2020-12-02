@@ -17,8 +17,16 @@ recognition.onresult = (evt) => {
 	} else if (natija == "qora"){
 		body.style.background = "black";
 	} else if (natija == "yashil"){
-		body.style.background = "green";
+		body.style.background = "lime";
 	} else if (natija == "sariq"){
 		body.style.background = "gold";
+	} else if (natija == "kok"){
+		body.style.background = "blue";
+	} else if (natija == "olovrang"){
+		body.style.background = "orange";
+	} else if (natija == "osmon"){
+		body.style.background = "skyblue";
+	} else if (natija == "siyoxrang"){
+		body.style.background = "purple";
 	}
 }

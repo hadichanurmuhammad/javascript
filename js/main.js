@@ -25,8 +25,8 @@ recognition.onresult = (evt) => {
 	} else if (natija == "olovrang"){
 		body.style.background = "orange";
 	} else if (natija == "osmon"){
-		body.style.background = "skyblue";
-	} else if (natija == "siyohrang"){
+		body.style.background = "skyblue"
+	} else if (natija == "man yoqtirgan rang"){
 		body.style.background = "purple";
 	} else if (natija == "oq"){
 		body.style.background = "white";
@@ -34,5 +34,9 @@ recognition.onresult = (evt) => {
 		body.style.background = "pink";
 	} else if (natija == "kulrang"){
 		body.style.background = "lightgrey";
+	} else if (natija == "aylan"){
+		body.style.background = "pink"
+		microphone.style.background = "black"
+		microphone.style.color = "red";
 	}
 }

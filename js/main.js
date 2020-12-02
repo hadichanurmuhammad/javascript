@@ -26,7 +26,7 @@ recognition.onresult = (evt) => {
 		body.style.background = "orange";
 	} else if (natija == "osmon"){
 		body.style.background = "skyblue";
-	} else if (natija == "siyoxrang"){
+	} else if (natija == "siyohrang"){
 		body.style.background = "purple";
 	}
 }

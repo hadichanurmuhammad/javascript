@@ -28,5 +28,9 @@ recognition.onresult = (evt) => {
 		body.style.background = "skyblue";
 	} else if (natija == "siyohrang"){
 		body.style.background = "purple";
+	} else if (natija == "oq"){
+		body.style.background = "white";
+	} else if (natija == "pushti"){
+		body.style.background = "pink";
 	}
 }
